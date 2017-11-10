@@ -6,7 +6,7 @@
     int main()
     {
         string str;
-        bool fail;
+        bool fail = false;
         cin >> n;
         cin.ignore(1, '\n');
         getline(cin, str);
