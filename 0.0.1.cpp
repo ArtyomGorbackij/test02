@@ -17,7 +17,6 @@ int main()
         if (!(stream >> a[i]) || n<0) {
             fail=true;
         }
-        if (stream>>err) fail=true;
     }
     if(!fail){
         for (int i = 0; i < n / 2; i++) {
