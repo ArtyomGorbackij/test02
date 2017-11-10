@@ -13,7 +13,7 @@
         istringstream stream(str);
         int *a = new int[n];
         for (int i = 0; i < n; i++) {
-            if (!(stream >> a[i]) || n<0) {
+            if (!(stream >> a[i]) || n<0 || str.length()>n) {
                 fail=true;
             }
         }
